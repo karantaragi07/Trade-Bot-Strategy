@@ -59,3 +59,19 @@ config/secrets.json
 test_results/
 backtest_data/
 performance_reports/
+
+# Strategy specific
+your-strategy-template/__pycache__/
+your-strategy-template/*.pyc
+reports/__pycache__/
+reports/*.pyc
+base-bot-template/__pycache__/
+base-bot-template/*.pyc
+dca-bot-template/__pycache__/
+dca-bot-template/*.pyc
+
+# Docker
+your-strategy-template/.dockerignore
+
+# Local configuration files
+your-strategy-template/bot.config.local.json
